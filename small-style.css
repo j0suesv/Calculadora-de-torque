@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+    color: #ffffff;
+}
+img{
+    height: 7em;
+    border-radius: 100%;
+    display: inline;
+    margin: 0 40px;
+}
+.imagen-inicio{
+    height: 2.3em;
+}
+p{ 
+    display: block;
+    font-family: montserrat;
+}
+h1{
+   text-align: center; 
+   font-family: montserrat;
+}
+b{
+    color: #BF1F1F;
+}
+a{
+    color: #BF1F1F;
+    position: relative;
+    bottom: 60px;
+    
+}
+.herramientas-p{
+    word-spacing: 9em;
+}
+.grafica{
+    display: inline-block;
+    position: relative;
+    left: 150px;
+    background-color: #BF1F1F;
+    top:0em;
+    height: 25em;
+    width: 32em;
+    text-align: center;
+}
+.datos{
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    position:relative;
+    left: 170px;
+    top:-2.5em;
+    color: black;
+    background-color: #ffffff;
+    text-align: center;
+    
+}
+.calculo-small{
+    border-radius: 15%;
+    color: #ffffff;
+    background-color: #BF1F1F;
+    display: block;
+    margin: 30px auto;
+}

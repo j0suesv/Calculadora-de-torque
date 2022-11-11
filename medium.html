@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="small-style.css">
+    <title>Small</title>
+</head>
+<body>
+    <h1>Rueda tamaño <b>medium</b></h1>
+    <a href="index.html"><img src="logo.png" class="imagen-inicio" alt=""></a> <br>
+    <div class="grafica">
+        <h2>Herramientas disponibles</h2>
+        <img src="Herramienta-x.png" alt="">
+        <img src="Herramienta.png" alt="">
+        <p class="herramientas-p">30cm 45cm</p>
+        <img src="Herramienta.png" alt="">
+        <p>55cm</p>
+    </div>
+    
+    <div class="datos">
+        <form name="Datos">
+            <h3>Fuerza aplicada (N)</h3>
+            <input type="number" step="0.01" placeholder="Type a value" id="fuerza"/>
+            <h3>Tamaño de la herramienta (m)</h3>
+            <input type="number" step="0.01" placeholder="Type a value" id="distancia"/>
+            <h3>Angulo (°)</h3>
+            <input type="number" step="0.01" placeholder="90° (default)" id="angulo"/>
+            <button type="button" class="calculo-small" onclick="calcular()">Calcular</button>
+        </form>
+
+        <h2>El torque es de: <span id="resultado"></span></h2>
+    </div>
+    <script src="code.js"></script>
+   
+</body>
+</html>
